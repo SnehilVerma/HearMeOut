@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:elevation="5dp"
+    android:background="@drawable/round_background1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cname"
+        android:layout_marginLeft="10dp"
+        android:text="Child's Name"
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:textColor="@android:color/black"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="Age"
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:inputType="number"
+
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/bgroup"
+        android:text="Blood Group"
+
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/cchild"
+        android:text="Child's Contact Number"
+        android:focusable="true"
+        android:layout_marginLeft="10dp"
+        android:textColorHighlight="#ffff299f"
+        android:inputType="phone"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/mcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:elevation="5dp"
+        android:background="@drawable/round_background1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:text="Parent's Name"
+            android:focusable="true"
+
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/mcon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/m1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Mob. no."
+            android:focusable="true"
+
+
+            android:inputType="number"
+
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/mcon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2"
+            android:text="Parent 2"
+            android:textColor="@android:color/black"
+            android:focusable="true"
+            android:textColorHighlight="#ffff299f"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/mcon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/m2"
+            android:text="Mob. no."
+            android:focusable="true"
+            android:layout_marginLeft="10dp"
+            android:textColorHighlight="#ffff299f"
+            android:inputType="phone"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/mcon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buyBTN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/round_edge_btn"
+        android:text="PROCEED"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

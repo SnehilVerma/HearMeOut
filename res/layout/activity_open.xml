@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    >
+
+    <include layout="@layout/action_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/mic"
+        android:elevation="5dp"
+        android:contentDescription="@string/pic"
+        android:onClick="Speak" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gesture"
+        android:contentDescription="@string/pic2"
+        android:onClick="Draw" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/picture"
+        android:contentDescription="@string/pic3"
+        android:onClick="Choose" />
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

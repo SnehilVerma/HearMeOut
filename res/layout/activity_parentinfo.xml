@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mname"
+        android:hint="Mother's Name"
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+
+
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/mcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcon"
+        android:hint="Contact Number"
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:inputType="phone"
+
+
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:hint="Father's Name"
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+
+
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fcon"
+        android:hint="Contact Number"
+        android:focusable="true"
+        android:textColorHighlight="#ffff299f"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+
+        android:inputType="phone"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:background="@drawable/round_edge_btn"
+        android:text="SAVE"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <!-- Please refer to http://oxford-portal.azurewebsites.net/doc/general/subscription-key-mgmt to get your subscription key -->
+    <!-- If you have one subscription key, you can add it here to use the service -->
+    <string name="primaryKey">9e347aa7b88a484e808c80af14a7851b</string>
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your subscription key to source file \"app/res/values/strings.xml\" to enable Face API calls.</string>
+
+    <string name="luisAppID">2370c203e1954cf698e90ab7b1da9116</string>
+    <string name="luisSubscriptionID">2370c203e1954cf698e90ab7b1da9116</string>
+
+    <string name="app_name">Hear Me Out</string>
+    <string name="action_settings">Settings</string>
+    <string name="pic">pic</string>
+    <string name="pic2">pic2</string>
+    <string name="pic3">pic3</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hear Me Out</string>
+    <string name="slide_1_desc">" "</string>
+
+    <string name="slide_2_title">Gestures</string>
+    <string name="slide_2_desc">Keep a track of all of your childs needs</string>
+
+    <string name="slide_3_title">Image Picker</string>
+    <string name="slide_3_desc">Simplified image assistant easy interaction</string>
+
+    <string name="slide_4_title">Speech to Text</string>
+    <string name="slide_4_desc">Get alerts whenever they need you</string>
+
+
+    string name="slide_5_title">Get Started!/string>
+    string name="slide_5_desc">Define basic gestures, configure your contact information and get
+    started/string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

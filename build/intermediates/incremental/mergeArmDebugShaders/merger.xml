@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Android\cfd\samples\SpeechRecoExample\src\main\shaders"/></dataSet><dataSet config="arm"><source path="E:\Android\cfd\samples\SpeechRecoExample\src\arm\shaders"/></dataSet><dataSet config="debug"><source path="E:\Android\cfd\samples\SpeechRecoExample\build-types\debug\shaders"/></dataSet><dataSet config="armDebug"><source path="E:\Android\cfd\samples\SpeechRecoExample\src\armDebug\shaders"/></dataSet></merger>
